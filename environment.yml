@@ -2,6 +2,7 @@ name: geo-env
 channels:
   - conda-forge
 dependencies:
+  - cartopy
   - datapane
   - flask>=2.0.0
   - flask-caching
@@ -12,12 +13,15 @@ dependencies:
   - keplergl
   - leafmap>=0.7.2
   - localtileserver>=0.4.0
+  - osmnx
   - pip
   - pydeck
+  - pydeck-earthengine-layers
   - python>=3.8
   - requests
   - rio-cogeo
   - tifffile
-  - pip:
-      - git+https://github.com/giswqs/leafmap
-      - git+https://github.com/giswqs/geemap 
+  - xarray_leaflet
+  # - pip:
+  #     - git+https://github.com/giswqs/leafmap
+  #     - git+https://github.com/giswqs/geemap 
