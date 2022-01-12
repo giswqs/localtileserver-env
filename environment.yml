@@ -1,19 +1,20 @@
-name: localtileserver-env
+name: geo-env
 channels:
   - conda-forge
 dependencies:
-  - python>=3.8
-  - numpy
-  - click
+  - datapane
   - flask>=2.0.0
-  - Flask-Caching
-  - GDAL
-  - requests
-  - scooby
-  - furl
-  - shapely
+  - flask-caching
+  - gdal
+  - geemap
+  - geopandas
+  - imageio
+  - keplergl
+  - leafmap
   - localtileserver>=0.3.8
   - pip
-  - leafmap
-  - geemap
+  - pydeck
+  - python>=3.8
+  - requests
   - rio-cogeo
+  - tifffile
