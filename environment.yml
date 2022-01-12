@@ -6,12 +6,12 @@ dependencies:
   - flask>=2.0.0
   - flask-caching
   - gdal
-  - geemap
+  - geemap>=0.11.0
   - geopandas
   - imageio
   - keplergl
-  - leafmap
-  - localtileserver>=0.3.8
+  - leafmap>=0.7.2
+  - localtileserver>=0.4.0
   - pip
   - pydeck
   - python>=3.8
